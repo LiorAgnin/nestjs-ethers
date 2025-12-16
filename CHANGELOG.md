@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1
+Published by **[blockcoders](https://github.com/blockcoders)** on **2025/12/16**
+- Update peer dependency @nestjs/common to ^11.1.6
+
 ## 3.0.0
 Published by **[blockcoders](https://github.com/blockcoders)** on **2025/10/01**
 - [#ec409ec](https://github.com/blockcoders/nestjs-ethers/commit/ec409ece03da220d38ff5d0d4c39c19a795bf9cd) Use Nest.js v11

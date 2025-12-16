@@ -1,6 +1,6 @@
 {
   "name": "nestjs-ethers",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The ethers.js library for NestJS",
   "author": "Blockcoders Engineering <hello@blockcoders.io>",
   "license": "Apache",
@@ -17,8 +17,7 @@
     "lint": "eslint \"{src,apps,libs,test,__tests__}/**/*.ts\" --fix",
     "lint:ci": "eslint \"{src,apps,libs,test,__tests__}/**/*.ts\"",
     "test": "tap --passes test/*.spec.ts",
-    "test:cov": "tap test/*.spec.ts --coverage-report=text-summary --coverage-report=lcovonly --allow-incomplete-coverage",
-    "prepublishOnly": "npm run lint:ci && npm run test"
+    "test:cov": "tap test/*.spec.ts --coverage-report=text-summary --coverage-report=lcovonly --allow-incomplete-coverage"
   },
   "precommit": [
     "lint:ci",
@@ -43,30 +42,30 @@
   "homepage": "https://github.com/blockcoders/nestjs-ethers/blob/main/README.md",
   "bugs": "https://github.com/blockcoders/nestjs-ethers/issues",
   "devDependencies": {
-    "@eslint/compat": "^1.4.0",
+    "@eslint/compat": "^2.0.0",
     "@fastify/pre-commit": "^2.2.1",
-    "@nestjs/common": "^11.1.6",
-    "@nestjs/core": "^11.1.6",
-    "@nestjs/platform-express": "^11.1.6",
-    "@nestjs/platform-fastify": "^11.1.6",
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@nestjs/platform-express": "^11.1.9",
+    "@nestjs/platform-fastify": "^11.1.9",
     "@types/node": "^24.6.1",
     "@types/supertest": "^6.0.3",
-    "@typescript-eslint/eslint-plugin": "^8.45.0",
-    "@typescript-eslint/parser": "^8.45.0",
-    "eslint": "^9.36.0",
+    "@typescript-eslint/eslint-plugin": "^8.50.0",
+    "@typescript-eslint/parser": "^8.50.0",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
-    "ethers": "^6.15.0",
+    "ethers": "^6.16.0",
     "nock": "^14.0.10",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "rxjs": "^7.8.2",
     "supertest": "^7.1.4",
-    "tap": "^21.1.0",
+    "tap": "^21.5.0",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "@nestjs/common": "^10.2.7",
+    "@nestjs/common": "^11.1.6",
     "ethers": "^6.15.0"
   },
   "tap": {
